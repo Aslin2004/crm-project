@@ -1,6 +1,6 @@
 # CRM Management System  
-A simple and modern Customer Relationship Management (CRM) application built with **React (frontend)** and **Node.js + Express + MongoDB (backend)**.  
-This project includes customer creation, listing, editing, and deletion with a clean UI inspired by **Frigate Engineering Services** (White + Violet theme).
+A simple and modern Customer Relationship Management (CRM) application built with React.js (frontend) and Java , Spring Boot, Maven (backend).  
+This project includes customer creation, listing, editing, and deletion with a clean UI .
 
 ---
 
@@ -10,11 +10,11 @@ This project includes customer creation, listing, editing, and deletion with a c
 - React.js  
 - Axios  
 - Modern CSS (Custom UI)  
-- Frigate theme (#674299)
 
 ### 🔹 Backend
-- Node.js  
-- Express.js  
+- Java 
+- Spring Boot
+- Maven  
 - MongoDB Atlas  
 - Mongoose  
 
@@ -23,8 +23,8 @@ This project includes customer creation, listing, editing, and deletion with a c
 ## 📁 Project Structure
 
 crm-project/
-├── frontend/ → React application (UI)
-├── backend/ → Node.js + Express REST API
+├── crm-frontend/ → React application (UI)
+├── crm-backend/ → Java + SpringBoot
 ├── README.md
 
 ---
@@ -33,29 +33,21 @@ crm-project/
 
 ### 1️⃣ Start Backend
 
-cd backend
-npm install
-npm start
-
+cd crm-backend
+mvn spring-boot:run
 
 Backend runs on:
-
 http://localhost:5000
-
 
 ### 2️⃣ Start Frontend
 
-cd frontend
+cd crm-frontend
 npm install
 npm start
 
 Frontend runs on:
-
 http://localhost:3000
-
-
 ---
-
 ## 🔗 API Endpoints (Backend)
 
 ### ➤ Create Customer  
