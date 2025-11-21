@@ -1,26 +1,28 @@
-# CRM Management System  
+CRM Management System  
 A simple and modern Customer Relationship Management (CRM) application built with React.js (frontend) and Java , Spring Boot, Maven (backend).  
 This project includes customer creation, listing, editing, and deletion with a clean UI .
 
 ---
 
-## 🚀 Tech Stack
+Tech Stack
 
-### 🔹 Frontend
+🔹 Frontend
 - React.js  
-- Axios  
-- Modern CSS (Custom UI)  
+- Axios    
 
-### 🔹 Backend
+🔹 Backend
 - Java 
-- Spring Boot
-- Maven  
-- MongoDB Atlas  
-- Mongoose  
+- Spring Boot 
+- MongoDB Atlas
+
+🔹 Tools:
+- Postman
+- VS Code
+- Maven
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 crm-project/
 ├── crm-frontend/ → React application (UI)
@@ -29,9 +31,9 @@ crm-project/
 
 ---
 
-## ⚙️ How to Run the Project
+How to Run the Project
 
-### 1️⃣ Start Backend
+1️⃣ Start Backend
 
 cd crm-backend
 mvn spring-boot:run
@@ -39,7 +41,7 @@ mvn spring-boot:run
 Backend runs on:
 http://localhost:5000
 
-### 2️⃣ Start Frontend
+2️⃣ Start Frontend
 
 cd crm-frontend
 npm install
@@ -47,24 +49,26 @@ npm start
 
 Frontend runs on:
 http://localhost:3000
----
-## 🔗 API Endpoints (Backend)
 
-### ➤ Create Customer  
+---
+
+🔗 API Endpoints (Backend)
+
+➤ Create Customer  
 `POST /api/customers`
 
-### ➤ Get All Customers  
+➤ Get All Customers  
 `GET /api/customers`
 
-### ➤ Update Customer  
+➤ Update Customer  
 `PUT /api/customers/:id`
 
-### ➤ Delete Customer  
+➤ Delete Customer  
 `DELETE /api/customers/:id`
 
 ---
 
-## 🎯 Features
+🎯 Features
 
 ✔ Add new customers  
 ✔ View customers in a clean table  
